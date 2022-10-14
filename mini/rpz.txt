@@ -1,8 +1,8 @@
 ; Title: 1Hosts (mini)
-; Last modified: 2022-10-14T17:18:37.441Z
+; Last modified: 2022-10-14T18:04:38.340Z
 ; ..............
 ;  |URL: https://github.com/badmojr/1Hosts
-;  |Count: 114,330 rules!
+;  |Count: 114,316 rules!
 ;  |Size: 3.09 MB
 ;  |
 ;  |Credits & ©: https://o0.pages.dev/-data/lists/assets.txt
@@ -17,7 +17,7 @@
 ;  \____________________
 
 $TTL 300
-@ SOA localhost. root.localhost. 1665767916 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1665770676 43200 3600 259200 300
   NS  localhost.
 
 *.teams.events.data.microsoft.com CNAME .
@@ -250,8 +250,6 @@ api2.amplitude.com CNAME .
 prg.smartadserver.com CNAME .
 *.ats.rlcdn.com CNAME .
 ats.rlcdn.com CNAME .
-*.mssdk16-platform-useast5.us.tiktokv.com CNAME .
-mssdk16-platform-useast5.us.tiktokv.com CNAME .
 *.apex.go.sonobi.com CNAME .
 apex.go.sonobi.com CNAME .
 *.loadm.exelator.com CNAME .
@@ -1414,8 +1412,6 @@ beacon.tru.am CNAME .
 telemetrics.klaviyo.com CNAME .
 *.cloudfront-labs.amazonaws.com CNAME .
 cloudfront-labs.amazonaws.com CNAME .
-*.mssdk22-normal-useast1a.tiktokv.com CNAME .
-mssdk22-normal-useast1a.tiktokv.com CNAME .
 *.astivysauran.com CNAME .
 astivysauran.com CNAME .
 *.adblade.com CNAME .
@@ -1918,8 +1914,6 @@ tamgrt.com CNAME .
 pushub.net CNAME .
 *.lr-in.com CNAME .
 lr-in.com CNAME .
-*.mssdk16-normal-alisg.tiktokv.com CNAME .
-mssdk16-normal-alisg.tiktokv.com CNAME .
 *.container.pepperjam.com CNAME .
 container.pepperjam.com CNAME .
 *.dewrain.life CNAME .
@@ -2026,8 +2020,6 @@ fpapi.io CNAME .
 tidaltv.com.akadns.net CNAME .
 *.cc.swiftype.com CNAME .
 cc.swiftype.com CNAME .
-*.mssdk22-normal-alisg.tiktokv.com CNAME .
-mssdk22-normal-alisg.tiktokv.com CNAME .
 *.rtb.gamoshi.io CNAME .
 rtb.gamoshi.io CNAME .
 *.c.bannerflow.net CNAME .
@@ -2104,8 +2096,6 @@ ios.bugly.qq.com CNAME .
 t.powerreviews.com CNAME .
 *.prd-collector-anon.ex.co CNAME .
 prd-collector-anon.ex.co CNAME .
-*.mssdk19-normal-useast1a.tiktokv.com CNAME .
-mssdk19-normal-useast1a.tiktokv.com CNAME .
 *.leadsrx.com CNAME .
 leadsrx.com CNAME .
 *.tattle.api.osano.com CNAME .
@@ -4740,8 +4730,6 @@ inrecsys.popin.cc CNAME .
 pixel.locker2.com CNAME .
 *.asia-ort-stsdk.vivoglobal.com CNAME .
 asia-ort-stsdk.vivoglobal.com CNAME .
-*.mssdk-sg.tiktokv.com CNAME .
-mssdk-sg.tiktokv.com CNAME .
 *.cdn.n.dynstc.com CNAME .
 cdn.n.dynstc.com CNAME .
 *.ww1097.smartadserver.com CNAME .
@@ -5132,8 +5120,6 @@ cdn.springserve.com CNAME .
 telemetry.art19.com CNAME .
 *.martech.condenastdigital.com CNAME .
 martech.condenastdigital.com CNAME .
-*.mssdk19-normal-alisg.tiktokv.com CNAME .
-mssdk19-normal-alisg.tiktokv.com CNAME .
 *.stats.lotlinx.com CNAME .
 stats.lotlinx.com CNAME .
 *.api-eu.bidmachine.io CNAME .
