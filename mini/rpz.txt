@@ -1,8 +1,8 @@
 ; Title: 1Hosts (mini)
-; Last modified: 2022-11-27T15:23:58.144Z
+; Last modified: 2022-11-27T19:23:25.405Z
 ; ..............
 ;  |URL: https://github.com/badmojr/1Hosts
-;  |Count: 115,356 rules!
+;  |Count: 115,358 rules!
 ;  |Size: 3.09 MB
 ;  |
 ;  |Credits & ©: https://o0.pages.dev/-data/lists/assets.txt
@@ -17,7 +17,7 @@
 ;  \____________________
 
 $TTL 300
-@ SOA localhost. root.localhost. 1669562630 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1669576996 43200 3600 259200 300
   NS  localhost.
 
 *.ic3.events.data.microsoft.com CNAME .
@@ -7004,8 +7004,6 @@ sjc-bid.contextweb.com CNAME .
 cm.imrworldwide.com CNAME .
 *.woobids.com CNAME .
 woobids.com CNAME .
-*.nct.ui-portal.de CNAME .
-nct.ui-portal.de CNAME .
 *.hk-vid-events.taboola.com CNAME .
 hk-vid-events.taboola.com CNAME .
 *.c.cnzz.com CNAME .
@@ -10018,6 +10016,8 @@ notifyvisitors.com CNAME .
 evorra.net CNAME .
 *.pix.telekom.de CNAME .
 pix.telekom.de CNAME .
+*.xo88.fun CNAME .
+xo88.fun CNAME .
 *.adux.com CNAME .
 adux.com CNAME .
 *.sadobeanalytics.geico.com CNAME .
@@ -11458,8 +11458,6 @@ events.santander.co.uk CNAME .
 websdk.moengage.com CNAME .
 *.co.ad.lgsmartad.com CNAME .
 co.ad.lgsmartad.com CNAME .
-*.tgw.gmx.net CNAME .
-tgw.gmx.net CNAME .
 *.govmetric.com CNAME .
 govmetric.com CNAME .
 *.moshimo.com CNAME .
@@ -11626,8 +11624,6 @@ secure.hiss3lark.com CNAME .
 s-cdn.rmp.rakuten.com CNAME .
 *.stats.unity3d.com CNAME .
 stats.unity3d.com CNAME .
-*.tgw.web.de CNAME .
-tgw.web.de CNAME .
 *.ulogs.bytefence.com CNAME .
 ulogs.bytefence.com CNAME .
 *.button-follow.zalo.me CNAME .
@@ -20210,8 +20206,6 @@ anorrecenturybr.com CNAME .
 app-sjo.marketo.com CNAME .
 *.bemobpath.com CNAME .
 bemobpath.com CNAME .
-*.crowdynews.com CNAME .
-crowdynews.com CNAME .
 *.decacopy.com CNAME .
 decacopy.com CNAME .
 *.easy-ads.com CNAME .
@@ -21316,6 +21310,8 @@ tracking.americaneagle.com CNAME .
 vra.outbrain.com CNAME .
 *.webpixel.smartmeapp.com CNAME .
 webpixel.smartmeapp.com CNAME .
+*.widget.crowdynews.com CNAME .
+widget.crowdynews.com CNAME .
 *.adorableanger.com CNAME .
 adorableanger.com CNAME .
 *.adsbtrk.com CNAME .
@@ -24142,6 +24138,8 @@ sdk6.ibm.xtify.com CNAME .
 smetrics.cultura.com CNAME .
 *.smetrics.flagstar.com CNAME .
 smetrics.flagstar.com CNAME .
+*.sponsor.imacdn.com CNAME .
+sponsor.imacdn.com CNAME .
 *.updatemanagir.us CNAME .
 updatemanagir.us CNAME .
 *.vt894axs16.com CNAME .
@@ -31584,6 +31582,8 @@ analytics.playinfinity.cn CNAME .
 bdx.playnext.cn CNAME .
 *.100.pncdn.cn CNAME .
 100.pncdn.cn CNAME .
+*.pnesemr.cn CNAME .
+pnesemr.cn CNAME .
 *.log.cs.pp.cn CNAME .
 log.cs.pp.cn CNAME .
 *.patriot.cs.pp.cn CNAME .
@@ -45526,6 +45526,14 @@ email-links.crowdfireapp.com CNAME .
 crowdignite.com CNAME .
 *.crowdskout.com CNAME .
 crowdskout.com CNAME .
+*.imagecache.crowdynews.com CNAME .
+imagecache.crowdynews.com CNAME .
+*.q.crowdynews.com CNAME .
+q.crowdynews.com CNAME .
+*.static.crowdynews.com CNAME .
+static.crowdynews.com CNAME .
+*.statistics.crowdynews.com CNAME .
+statistics.crowdynews.com CNAME .
 *.wco.crownpeak.com CNAME .
 wco.crownpeak.com CNAME .
 *.crptentry.com CNAME .
@@ -79552,8 +79560,6 @@ tumblebirds.com CNAME .
 tumedhan.com CNAME .
 *.web.tummy-tox.com CNAME .
 web.tummy-tox.com CNAME .
-*.tundrafolder.com CNAME .
-tundrafolder.com CNAME .
 *.ads.tunein.com CNAME .
 ads.tunein.com CNAME .
 *.clicks.tunein.com CNAME .
@@ -80774,8 +80780,6 @@ utherverse.com CNAME .
 uthounie.com CNAME .
 *.uthyr-que.com CNAME .
 uthyr-que.com CNAME .
-*.utopicmobile.com CNAME .
-utopicmobile.com CNAME .
 *.i-200-b-0-0-5-content-bundles-bench.utorrent.com CNAME .
 i-200-b-0-0-5-content-bundles-bench.utorrent.com CNAME .
 *.dealmedia.utsandiego.com CNAME .
@@ -82870,8 +82874,6 @@ online.winner.com CNAME .
 winneradsmedia.com CNAME .
 *.winneronline.com CNAME .
 winneronline.com CNAME .
-*.winnersofvouchers.com CNAME .
-winnersofvouchers.com CNAME .
 *.marketing.winn-marion.com CNAME .
 marketing.winn-marion.com CNAME .
 *.ads.winsite.com CNAME .
@@ -91716,8 +91718,6 @@ track306.info CNAME .
 trippealbirthda.info CNAME .
 *.trustedzone.info CNAME .
 trustedzone.info CNAME .
-*.tskipadz.info CNAME .
-tskipadz.info CNAME .
 *.tt128.info CNAME .
 tt128.info CNAME .
 *.appshelf.ttpsdk.info CNAME .
@@ -115306,6 +115306,8 @@ abee.yeeowl.xyz CNAME .
 yfue99.xyz CNAME .
 *.yhhthemostb.xyz CNAME .
 yhhthemostb.xyz CNAME .
+*.yihehe.xyz CNAME .
+yihehe.xyz CNAME .
 *.yinteukrestina.xyz CNAME .
 yinteukrestina.xyz CNAME .
 *.yinthesprin.xyz CNAME .
