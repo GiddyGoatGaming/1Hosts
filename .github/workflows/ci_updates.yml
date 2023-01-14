@@ -1,4 +1,4 @@
-name: CI - updates
+name: CI
 'on':
   workflow_dispatch:
   schedule:
@@ -33,6 +33,13 @@ jobs:
           done
           )
         shell: bash
+          
+      - name: Commit & Push
+        uses: actions-js/push@master
+        with:
+          branch: master
+          message: merge! submit_here
+          github_token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Initiate update
         uses: peter-evans/repository-dispatch@v2
@@ -48,8 +55,3 @@ jobs:
           retain_days: 1
           keep_minimum_runs: 1
           
-      - name: Commit & Push
-        uses: actions-js/push@master
-        with:
-          branch: master
-          github_token: ${{ secrets.GITHUB_TOKEN }}
