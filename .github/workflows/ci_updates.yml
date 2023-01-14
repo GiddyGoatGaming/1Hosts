@@ -9,6 +9,7 @@ jobs:
     runs-on: ubuntu-20.04
 
     steps:
+      - uses: actions/checkout@v2
       - name: Prep submit_here
         run: |
           (
@@ -46,3 +47,9 @@ jobs:
         with:
           retain_days: 1
           keep_minimum_runs: 1
+          
+      - name: Commit & Push
+        uses: actions-js/push@master
+        with:
+          branch: master
+          github_token: ${{ secrets.GITHUB_TOKEN }}
