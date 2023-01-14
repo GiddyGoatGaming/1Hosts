@@ -12,7 +12,6 @@ jobs:
       - name: Prep submit_here
         run: |
           (
-          listFiles() { find "$1" -type f -print; }
           prints() { sed -e '$a\' "$@"; }
 
           baseDir="submit_here"
