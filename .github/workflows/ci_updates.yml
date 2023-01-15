@@ -22,12 +22,12 @@ jobs:
           tempFile="$baseDir/click_me_to_edit/$file"
 
           if [[ ! -f "$tempFile" ]]; then
-          cat /dev/null > "$tempFile"
+          touch "$tempFile"
           else
           if [ -s "$tempFile" ]; then
           newBase=$(prints "$tempFile" "$baseFile")
           prints <<<"$newBase" > "$baseFile"
-          rm -f "$tempFile" && cat /dev/null > "$tempFile"
+          rm -f "$tempFile" && touch "$tempFile"
           fi
           fi
           done
