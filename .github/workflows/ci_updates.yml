@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-20.04
 
     steps:
-      - uses: actions/checkout@v3.3.0
+      - uses: actions/checkout@v3
       - name: Prep submit_here
         run: |
           (
@@ -42,7 +42,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Initiate update
-        uses: peter-evans/repository-dispatch@v2.1.1
+        uses: peter-evans/repository-dispatch@v2
         with:
           token: ${{ secrets.ci_PAT }}
           repository: ${{ secrets.target_repo }}
