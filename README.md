@@ -1,4 +1,3 @@
-# ***Safeguard your device(s) against pesky ads, trackers, and malware.***<br>
 <p align="center">
     <a href="https://github.com/badmojr/1Hosts"><img src="https://img.shields.io/github/repo-size/badmojr/1Hosts?logo=adblock&style=plastic" alt="repo size"></a>
     <a href="https://github.com/badmojr/1Hosts/commits/master"><img src="https://img.shields.io/github/commit-activity/w/badmojr/1Hosts?logo=adblock&style=plastic" alt="commit activity"></a>
@@ -6,7 +5,11 @@
     <a href="https://github.com/badmojr/1Hosts"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbadmojr%2F1Hosts_fGHyh&count_bg=%234572CD&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views%3A+%28today%2FTotal%29&edge_flat=false"/></a>
 </p>
 
+# ***Safeguard your device(s) against pesky ads, trackers, and malware.***<br>
+
+
 <h3 align="center"><id="mini"><strong><ins>1Hosts (mini)</ins></strong></h3>
+    <strong><i>variant 1</i></strong>: <i>lenient; unblocks a number of ads &amp; trackers for in-app rewards, anti-AdBlock, etc.</i>
 <table align="center">
 <thead>
 <tr>
@@ -128,6 +131,7 @@
 
 
 <h3 align="center"><id="Lite"><strong><ins>1Hosts (Lite)</ins></strong></h3>
+    <strong><i>variant 2</i></strong>: <i>balanced; set &amp; forget, doesn&#39;t hamper user experience (UX), recommended.</i>
 <table align="center">
 <thead>
 <tr>
@@ -249,6 +253,7 @@
 
 
 <h3 align="center"><id="Pro"><strong><ins>1Hosts (Pro)</ins></strong></h3>
+    <strong><i>variant 3</i></strong>:  <i>strict; has some minimal breakages, prioritizes privacy &amp; safety (adblocking) over UX e.g blocks <code>graph.facebook.com</code>.</i>
 <table align="center">
 <thead>
 <tr>
@@ -370,6 +375,7 @@
 
 
 <h3 align="center"><id="Xtra"><strong><ins>1Hosts (Xtra)</ins></strong></h3>
+    <strong><i>variant 4</i></strong>: <i>extremly aggressive &amp; restrictive. Do not use unless you have tried <strong>Pro</strong> first!</i>
 <table align="center">
 <thead>
 <tr>
@@ -491,11 +497,6 @@
 
 **Quickstart Guide**<br>
 ----------------
-**mini** - Level 1: lenient; unblocks a number of ads & trackers for in-app rewards, anti-AdBlock, etc.<br>
-**Lite** - Level 2: balanced; set & forget, doesn't hamper user experience (UX), recommended.<br>
-**Pro**   - Level 3:  strict; has some minimal breakages, prioritizes privacy & safety (adblocking) over UX e.g blocks `graph.facebook.com`.<br>
-**Xtra** - Level 4: extremly aggressive & restrictive. Do not use unless you have tried **Pro** first!<br>
-
 Start with a ***Lite*** list first.<br>
 If you decide that ***Lite*** isn't for you, then move upwards or downwards the chain.<br>
 
@@ -635,7 +636,7 @@ updates daily; no support for subdomain/wildcard & CNAME blocking; no DoT suppor
 </p>
 
 ----------------
-<p>
+<p>Like the project? <br>
 <a href="https://www.patreon.com/join/badmojr/"><img src="./-data/static/img/patron.png" title="Become a patron"></a>
 &nbsp;
 <a href="https://t.me/one_hosts"><img src="./-data/static/img/tg.png" title="Join us on Telegram"></a>
